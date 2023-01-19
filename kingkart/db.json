@@ -1,0 +1,70 @@
+{
+  "signup": [
+    {
+      "fristName": "dheeraj",
+      "lastName": "prajapati",
+      "email": "dheerajprajapatijnp@gamil.com",
+      "password": "dheeraj",
+      "id": 2
+    },
+    {
+      "fristName": "pawan",
+      "lastName": "prajapati",
+      "email": "pawan@2000",
+      "password": "chanda",
+      "id": 3
+    },
+    {
+      "fristName": "chanda",
+      "lastName": "bind",
+      "email": "chanda@540",
+      "password": "chanda",
+      "id": 4
+    },
+    {
+      "fristName": "Aman",
+      "lastName": "Prajapati",
+      "email": "amanprajpati@gamil",
+      "password": "amsn",
+      "id": 5
+    },
+    {
+      "fristName": "dheeru",
+      "lastName": "ambani",
+      "email": "dheeru@gmail.com",
+      "password": "dheeru",
+      "id": 6
+    },
+    {
+      "fristName": "rishu",
+      "lastName": "pal",
+      "email": "rishu@gmail.com",
+      "password": "rishu",
+      "id": 7
+    },
+    {
+      "fristName": "pawanchanda",
+      "lastName": "prajapati",
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka",
+      "id": 8
+    },
+    {
+      "fristName": "",
+      "lastName": "",
+      "email": "eve.holt@reqres.in",
+      "password": "cityslicka",
+      "id": 9
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

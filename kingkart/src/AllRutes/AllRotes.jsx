@@ -6,6 +6,8 @@ import Store from '../Pages/Store'
 import IPad from '../Pages/iPad'
 import Login from '../Pages/Login'
 import Logout from '../Pages/Logout'
+import SignupCard from "../Pages/SignUp"
+import Success from '../Pages/Success'
 
 function AllRotes() {
   return (
@@ -15,7 +17,9 @@ function AllRotes() {
         <Route path='/mac' element={<Mac/>}/>
         <Route path='/ipad' element={<IPad/>}/>
         <Route path='/login' element={<Login/>}/>
+        <Route path='/signup' element={<SignupCard/>}/>
         <Route path='/logout' element={<Logout/>}/>
+        <Route path='/success' element={<Success/>}/>
 
     </Routes>
     
