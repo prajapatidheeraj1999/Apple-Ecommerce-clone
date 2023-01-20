@@ -61,6 +61,13 @@ const cards = [
         image:
           'https://is4-ssl.mzstatic.com/image/thumb/57Rhd96P3jBJiWkW-nKezQ/1679x945sr.webp',
       },
+      {
+        title: 'Design Projects 3',
+        text:
+          "The project board is an exclusive resource for contract work. It's perfect for freelancers, agencies, and moonlighters.",
+        image:
+          'https://is2-ssl.mzstatic.com/image/thumb/Qkhk0gLz2yXBfHkIhkcSAA/1679x945sr.webp',
+      },
   ];
 
 export default function CaptionCarousel() {
