@@ -26,7 +26,7 @@ function Navbar() {
         <HStack mr={6}>
             
             <Center><Text mr={10}><Link to="/signup" disabled={isAuth}>{isAuth?usename:"SignUp"}</Link></Text></Center>
-            {/* <Button>Logout</Button> */}
+            
             <Center><Text mr={10}><Link to="/logout">Logout</Link></Text></Center>
             {/* <Center><Text mr={10}><Link to="/success">success</Link></Text></Center> */}
             <Center><UilShoppingCartAlt/></Center>
