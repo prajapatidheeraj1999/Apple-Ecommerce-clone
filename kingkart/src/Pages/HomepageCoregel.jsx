@@ -22,8 +22,8 @@ const settings = {
   autoplay: true,
   speed: 500,
   autoplaySpeed: 5000,
-  slidesToShow: 1,
-  slidesToScroll: 1,
+  slidesToShow: 2,
+  slidesToScroll: 2,
 };
 const cards = [
     {
@@ -89,7 +89,7 @@ export default function CaptionCarousel() {
       position={'relative'}
       height={'600px'}
       width={'full'}
-      overflow={'hidden'}>
+      overflow={'hidden'} mb={20}>
       {/* CSS files for react-slick */}
       <link
         rel="stylesheet"
@@ -153,6 +153,7 @@ export default function CaptionCarousel() {
                   {card.text}
                 </Text>
               </Stack>
+              
             </Container>
           </Box>
         ))}
