@@ -41,10 +41,10 @@ export default function Login() {
       .then((res) => logincheking(res.data))
       .catch((error) => console.log(error))
   }
-  let usename = ""
+ 
   let logincheking = (res) => {
     let ans = false
-
+    let usename = ""
     res.map((el) => {
       if (el.email === ldata.email && el.password === ldata.password) {
         ans = true
@@ -71,7 +71,7 @@ export default function Login() {
   }
   console.log(ldata)
   console.log(isAuth)
-  console.log(usename)
+  //console.log(usename)
 
   return (
     <Flex

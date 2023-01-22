@@ -55,6 +55,13 @@
       "email": "eve.holt@reqres.in",
       "password": "cityslicka",
       "id": 9
+    },
+    {
+      "fristName": "Jogesh",
+      "lastName": "Prajapati",
+      "email": "jogesh143@gmail.com",
+      "password": "8080652155",
+      "id": 10
     }
   ],
   "products": [
